@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--Choix de langue sur la page-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Rochelle's Weather</title> <!--Titre de la page-->
+  <link rel="stylesheet" href="style.css"> <!--lien avec le fichiers css "style.css"-->
+</head>
+<body>
+    <div class="card"> <!--Création d'une carte-->
+    <h1>Weather's Today</h1>
+    <div class="error"> <!-- creation d'une variable erreur -->
+        <p>La ville saisit n'est pas connut de nos services</p> <!-- message d'erreur -->
+    </div>
+    <div class="weather"> <!--Création de la structure météo-->
+        <img src="/img/Soleil.svg" class="weather-icon"> <!--choix d'une image pour l'icon météo-->
+        <h1 class="temperature"></h1> <!--affichage de la température-->
+        <h2 class="ville"></h2> <!--affichage du nom de la ville-->
+        <div class="details"> <!--création d'un tableaux pour les conditions météo : vent et humidité-->
+            <div class="col"> <!--création d'une "séparation/division"-->
+                <img src="img/humidity.png"> <!--choix de l'icon humidité-->
+                <div>
+                    <p class="humidité"></p> <!--ajout de texte-->
+                    <p>Taux d'humidité</p>
+                </div>
+            </div>
+            <div class="col"> <!--création d'une "séparation/division"-->
+                <img src="/img/wind.png"> <!--choix de l'icon vent-->
+                <div>
+                  <p class="vent"></p> <!--création de la fonction vent-->
+                  <p>Vitesse du vent</p> <!-- ajout de texte -->
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+<script src="meteo.js"></script>
+</body>
+</html>
