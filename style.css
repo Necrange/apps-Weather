@@ -1,0 +1,89 @@
+*{
+   margin: 0; /*famille de police pour la marge*/
+   padding: 0; /*famille de police pour dimensionnement*/
+   font-family: 'Popins', sans-serif; 
+   box-sizing: border-box;
+} 
+body{ /* Création du corp du site web*/
+   background-color : rgb(0, 0, 0);
+   background-image: url("/img/image2.jpg");
+   background-size : 1024, 768;
+   background-repeat : no-repeat;
+   background-attachment : center;
+   background-position: 0 center center;
+   border : 7.5px solid rgba(141, 168, 33, 0.726);
+   border-style: solid;
+   border-width: 3px 3px;
+   border-color: red; /* liseré rouge */
+   display : flex;
+}
+.titre{
+   text-align: left; /* justification du texte a gauche*/
+   margin-left: 10px; /*espace entre le bord de la cellule et le texte */
+   font-size: 14px; /* talle de la police */
+   margin-top: 10px; /*marge entre le haut de la cellule et le texte */
+   display: block;
+}
+.card{ /* création du cadre pour la partie recherche*/
+   max-width: auto;
+   max-height: auto;
+   backdrop-filter : blur(5px); /* ajout de l'arrière plan du texte*/
+   color: #a3e607; /* couleur arrière plan*/
+   margin: 50px 50px 50px 50px; /* ajout de la marge a 100px du haut et 0 du bas tandis que auto pour la droite et la gauche*/
+   border-radius: 50px; /* ajout du rayon des arrondies des angles */
+   padding: 320px 100px; /* ajout d'un espace entre la demande d'alignement du texte et la bordure extérieur */
+   text-align: center; /* le texte sera aligner et centrer */
+   display : flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+.card h1 {
+   font-size: 36px;
+   color: rgba(26, 22, 231, 0.836);
+   font-weight: bold;
+ }
+.weather-icon{ /*définition de l'icon météo*/
+   width: 170px; /* modification de la largeur de l'icon */
+   margin-top: 30px; /*modification de la marge haute */
+}
+.weather h1{ /*définition du paragraphe H1 */
+   font-size: 80px; /* taille de la police */
+   font-weight: 500; /* épaisseur de la police */
+}
+.weather h2{ /*définition du paragraphe H2 */
+   font-size: 45px; /* taille de la police */
+   font-weight: 400; /* épaisseur de la police */
+   margin-bottom: -10px; /* marge basse*/   
+}
+.details{ /* définition des conditions météos*/
+   display: flex; /* alignement de l'objet automatique */
+   align-items: center; /* placement de l'item dans ca cellule */
+   justify-content: space-between; /* marge entre les deux cellules */
+   padding: 0 20px; /* ordre : top-right-bottom-left --> espace avec le cadre autour des icons */
+   margin-top: 50px; /* marge haute avec la cellule */   
+}
+.col{ /* définition des valeurs des cellules */
+   display: flex; /* ajustement auto de la taille des cellules */
+   align-items: center; /* centre les cellules */
+   text-align: left; /* justification de texte à gauche */
+   font-weight: 0px;
+}
+.col img{ /* définition des valeurs des cellules */
+   width: 40px; /* grandeur des icons */
+   margin-right: 10px; /* écart entre le texte et les icons */
+}
+.humidité, .vent{
+   font-size: 20px; /* taille de la police */
+   margin-top: -6px; /* Marge avec le haut de la cellule */
+}
+.weather{
+   display: none;
+}
+.error{ 
+   text-align: left; /* justification du texte a gauche*/
+   margin-left: 10px; /*espace entre le bord de la cellule et le texte */
+   font-size: 14px; /* talle de la police */
+   margin-top: 10px; /*marge entre le haut de la cellule et le texte */
+   display: block;
+}
