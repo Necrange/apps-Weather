@@ -11,22 +11,18 @@ body{ /* Création du corp du site web*/
    width: 90%;
    max-width: 470px;
    background: linear-gradient(#00feba, #5b549a);
-   backdrop-filter: blur(10px); /* ajout de l'arrière plan du texte*/
+   backdrop-filter: sepia(5%); /* ajout de l'arrière plan du texte*/
    color: #000000; /* couleur arrière plan*/
    margin: 100px auto 0px; /* ajout de la marge a 100px du haut et 0 du bas tandis que auto pour la droite et la gauche*/
    border-radius: 20px; /* ajout du rayon des arrondies des angles */
    padding: 40px 35px; /* ajout d'un espace entre la demande d'alignement du texte et la bordure extérieur */
    text-align: center; /* le texte sera aligner et centrer */
    background-image: url("/img/image2.jpg");
-   background-size : fixe;
    background-repeat : no-repeat;
-   background-attachment : local;
    background-position: center, center,center;
-   border : 7.5px solid rgba(141, 168, 33, 0.726);
    border-style: solid;
    border-width: 3px 3px;
    border-color: red; /* liseré rouge */
-   display : center;
 }
 .weather-icon{ /*définition de l'icon météo*/
    width: 340x; /* modification de la largeur de l'icon */
