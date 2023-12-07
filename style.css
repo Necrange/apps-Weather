@@ -13,7 +13,7 @@ body{ /* Création du corp du site web*/
    background: linear-gradient(#00feba, #5b549a);
    backdrop-filter: sepia(5%); /* ajout de l'arrière plan du texte*/
    color: #000000; /* couleur arrière plan*/
-   margin: 100px auto 0px; /* ajout de la marge a 100px du haut et 0 du bas tandis que auto pour la droite et la gauche*/
+   margin: 0px 0px 0px; /* ajout de la marge a 100px du haut et 0 du bas tandis que auto pour la droite et la gauche*/
    border-radius: 20px; /* ajout du rayon des arrondies des angles */
    padding: 40px 35px; /* ajout d'un espace entre la demande d'alignement du texte et la bordure extérieur */
    text-align: center; /* le texte sera aligner et centrer */
